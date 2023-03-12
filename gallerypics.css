@@ -1,0 +1,27 @@
+*{background-color:#e1ffcc}
+h3{
+text-align: center;
+font-style: oblique;
+font-family: Courier, "Courier New", Monaco, monospace;
+color:Green !important;
+  
+background-color:#98FB98;
+padding:30px;
+ 
+}
+
+
+
+.column {
+  
+  float: left;
+  width: 30.33%;
+  margin-left: 170px;
+  
+  padding: 7px;
+}
+
+.row::after {
+  clear: both;
+  display: table;
+}

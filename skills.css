@@ -1,0 +1,56 @@
+*{color:green;}
+
+*{background-color:Papayawhip;}
+
+h3{
+text-align:center;
+font-style: oblique;
+font-family: Courier, "Courier New", Monaco, monospace;
+ 
+text-transform: capitalize;
+color:Green !important;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+
+p{
+text-align:Justify;
+font-family: Arial, Tahoma, Sans-serif;
+color:navy;
+}
+
+ul.a {
+  padding: 13px;
+ 
+}
+
+ul.b {
+  padding: 13px;
+}
+
+ul.c {
+  padding: 13px;
+}
+
+
+.column {
+  
+  float: left;
+  width: 34.33%;
+  padding: 7px;
+  margin-left: 200px;
+}
+
+
+.row::after {
+  clear: both;
+  display: table;
+}
+
+.third {
+	  float: left;
+  width: 34.33%;
+  padding: 7px;
+  margin-left: 40em;
+}
